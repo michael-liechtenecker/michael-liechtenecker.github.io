@@ -22,30 +22,34 @@ header h1{
     margin: 50px auto;
 }
 
-header .button{
-    display: inline-block;
-    color: white;
-    padding: 5px;
+#nav{
+    text-align: center;
     background-color: black;
-    opacity: 0.5;
-    margin: 5px 30px;
-    border-radius: 5px;
-    border: 2px solid black;
+    height: 50px;
+    position: fixed;
+    width: 1023px;
+    margin: 0 257px;
+    top: 0;
 }
 
-header .button:hover{
-    border: 4px solid whitesmoke;
-    margin: 2.6px 27.6px;
+.button{
+    display: inline-block;
+    padding: 15.4px 30px 15.4px 30px;
+    margin: 0px auto;
+    
 }
 
-header .button:active{
-    border: 2px solid whitesmoke;
-    margin: 5px 30px;
-}
-
-header a{
+.button a{
     color: white;
     text-decoration: none;
+}
+
+.button:hover{
+    background-color: rgb(27, 27, 27);
+}
+
+.button:active{
+    background-color: grey;
 }
 
 main{
@@ -81,5 +85,6 @@ footer{
 footer p{
     padding-top: 41.8px;
 }
+
 
 
