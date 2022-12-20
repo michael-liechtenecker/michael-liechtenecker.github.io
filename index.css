@@ -38,6 +38,11 @@ header .button:hover{
     margin: 2.6px 27.6px;
 }
 
+header .button:active{
+    border: 2px solid whitesmoke;
+    margin: 5px 30px;
+}
+
 header a{
     color: white;
     text-decoration: none;
